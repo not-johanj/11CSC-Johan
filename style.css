@@ -11,7 +11,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #transparent;
   display: flex;
 }
 
@@ -23,9 +23,13 @@ ul li a {
 }
 
 ul li a:hover:not(.active) {
-  background-color: #111111;
+  background-color: #74B1E7;
 }
 
 ul li a.active {
-  background-color: #04AA6D;
+  background-color: #1C63A1;
+}
+body {
+  background-image: url("image/image.png");
+  background-size: 100%
 }

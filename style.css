@@ -32,7 +32,9 @@ ul li a.active {
 }
 body {
   background-image: url("image/image.png");
-  background-size: 100%
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -83,4 +85,6 @@ input[type=submit]:hover {
 }
 h1 {
   text-align: center;
-
+h1 {
+    color: white;
+}

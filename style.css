@@ -19,7 +19,7 @@ ul {
 ul li a {
   display: block;
   color: white;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
 }
 
@@ -30,11 +30,17 @@ ul li a:hover:not(.active) {
 ul li a.active {
   background-color: #1C63A1;
 }
-body {
-  background-image: url("image/image.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
+
+  /* Style the footer */
+
+footer {
+  background-color: #f1f1f1;
+  padding: 8px;
+  text-align: center;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 

@@ -1,45 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Sea Level Rise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sea Level Rise | Contact</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-<ul>
-  <li><a href="home.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="content.html">Content</a></li>
-  <li><a class="active" href="contact.html">Contact</a></li>
-</ul>
-<body style="background-image: url('image/contact');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; "</body>
-<h1>Contact Information</h1>
 
+<body style="background-image: url('image/contact.png');">
 
+    <nav>
 
-<form action="/action_page.php">
-  <label for="fname">First Name</label>
-  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <div class="nav-container">
 
-  <label for="lname">Last Name</label>
-  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <a href="home.html" class="logo">
+                JJSLR
+            </a>
 
-  <label for="country">Country</label>
-  <select id="country" name="country">
-    <option value="new zealand">New Zealand</option>
-    <option value="australia">Australia</option>
-    <option value="china">China</option>
-    <option value="singapore">Singapore</option>
-  </select>
+            <ul>
 
-    <label for="about">About</label>
-  <i id="about">
-  <textarea>Some text...</textarea>
-</form>
-<input type="submit" value="Submit">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="content.html">CONTENT</a></li>
+                <li><a class="active" href="contact.html">CONTACT</a></li>
 
-<footer>
-  <p>Based in Auckland, New Zealand</p>
-</footer>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="page">
+
+        <div class="content-box">
+
+            <h1 class="page-title">Contact Information</h1>
+
+            <form action="#">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+                <label for="country">Country</label>
+
+                <select id="country" name="country">
+
+                    <option value="newzealand">New Zealand</option>
+                    <option value="australia">Australia</option>
+                    <option value="china">China</option>
+                    <option value="singapore">Singapore</option>
+                    <option value="usa">Usa</option>
+                    <option value="india">India</option>
+
+                </select>
+
+                <label for="message">Message</label>
+
+                <textarea id="message"
+                          name="message"
+                          placeholder="Write your message here..."></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <p>
+          Based in Auckland, New Zealand | By Johan Jaison
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
